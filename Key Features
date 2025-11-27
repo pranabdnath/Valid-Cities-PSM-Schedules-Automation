@@ -1,0 +1,17 @@
+This script automates the extraction, filtering, and processing of scheduling data received through email. It reads the latest email with a specific subject line, retrieves a ZIP file containing CSV data, and then separates the data into different sheets based on city groups and conditions. It also marks rows with a 30-day logic flag and maintains a log of every run.
+
+Key Features
+
+Fetches the most recent email attachment based on a chosen subject line.
+
+Extracts and reads CSV content from a ZIP file.
+
+Filters rows into separate sheets based on city groups.
+
+Handles entries with and without date values.
+
+Adds an additional column with a processed date field.
+
+Flags records according to a 30-day recurrence logic.
+
+Maintains execution logs inside a log sheet.
